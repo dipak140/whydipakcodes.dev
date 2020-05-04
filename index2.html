@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume Website template</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  </head>
+  <body>
+
+      <section id  = "header">
+        <div class="container text-center">
+          <div class="user-box">
+            <img src="images\dipak.jpg" alt="Not found">
+            <h1>Dipak Kumar Sisodiya</h1>
+            <p>Engineering Apprentice - DRDO | Machine Learning Contributor - Ignitus</p>
+          </div>
+
+          <div class="jumbotron">
+  <h4 class="">Hey! Welcome to my website</h4>
+  <p class="lead">I see you've made it, you must be quit lost to have found this.</p>
+  <hr class="my-4">
+  <p>Hold on! if you are really lost, click the below button. It would take you away to a random happy place on the internet. Far from here atleast!</p>
+  <a class="btn btn-primary btn-lg" href="https://www.google.com/doodles/" role="button">I was lost</a>
+</div>
+
+        </div>
+
+        <div class="scroll-btn">
+          <div class="scroll-bar"> <a href="#"><span> </span></a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+<!-------------------------------USER INFO-------------->
+
+<section id="user-info">
+  <div class="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="navbar-brand" href="#"><img src= "images/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      </button>
+      <a class="py-2 d-none d-md-inline-block" href="#">Home</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">About Me</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Projects</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Qualifications</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
+
+    </div>
+  </nav>
+</div>
+<!-----------ABOUT------------------------------->
+
+<div class="about container" >
+  <div class="row">
+    <div class="col-md-6 text-center">
+      <img src="images/dipak2.jpg" class = "profile-img">
+    </div>
+    <div class="col-md-6">
+      <h3>Who am I?</h3>
+      <p id="aboutMe">
+        An Aerospace Engineer with interests in the field of Aerodynamics, Machine Learning and the possible application of one field into the other.
+        <br><li>An self taught programmer, I have extensive experience in using Python libraries such as Numpy, Pandas, openCV, Tensorflow and Sklearn for Numerical computations, especially large scale tensor operations in Machine Learning and Computational Aerodynamics.</li>
+        <br><li>Currently, I am exploring the possible role machine learning and data science could play to advance their applications in traditional industries such as Aerospace, Non-Destructive Testing and Manufacturing. The details of my work can be found on github or researchgate.com</li><br>
+    </p
+    </div>
+  </div>
+</div>
+</section>
+
+<section id= "projects">
+  <!--                     Projects                              -->
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-5">PROJECTS</h1>
+  <p class="lead container">Below is summary of all my projects divided in fields such as Machine Leaning, Python Automation and Others</p>
+</div>
+
+<div class="project py-5 bg-light">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/schlerin.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+               <h5>TURBULENCE DETECTION & DEEP LEARNING</h5>
+               K-Means Clustering and PCA applied to cluster images of taken from subsonic and supersonic wind tunnels .
+               The labeled data is then fed into a Deep Neural Network architecture using Tensorflow API.
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/users/dipak140/projects/2">Know More</a></button>
+               </div>
+               <small class="text-muted">2020</small>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/potential.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+               <h5>POTENTIAL FLOW SOLVER - GUI - PYTHON TKINTER</h5>
+               A potential flow solver built from scratch using scientific python libraries and OOPs principles.
+               <br><strong>Features: Vectorization, Flow visualization and GUI using tkinter</strong>
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/dipak140/Potential-Flow-GUI">Know More</a></button>
+               </div>
+               <small class="text-muted">2019</small>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/youtube.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+              <h5>YOUTUBE WEBINAR AUTOMATION - PYTHON - YOUTUBE API</h5>
+              The script automates the task of automating webinars and scheduling of youtube videos using python.
+              <br><br>
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/users/dipak140/projects/2
+">Know More</a></button>
+               </div>
+               <small class="text-muted">2020</small>
+             </div>
+           </div>
+         </div>
+       </div>
+</div>
+</div>
+
+<div class="project py-5 bg-light">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/jet.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+               <h5>AIRPLANE CRASH SEVERITY ESTIMATION - DECISION TREE REGRESSION</h5>
+               Showcases the application of Decision tree regression in severity estimation of airplane crashes.<br>
+               F1 score - 0.83
+               <br>Post competition analysis: Top 10%
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href=" https://github.com/dipak140/HackerEarthComp
+">Github Link</a></button>
+               </div>
+               <small class="text-muted">2020</small>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/car.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+               <h5>SUPRA SAE-INDIA 2016</h5>
+               Vice captain of the first team to ever compete in SUPRA SAEINDIA from the university.
+
+               <br><br>
+               Resposible for design, manufacturing and budget.
+               <br><br>
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/dipak140/Potential-Flow-GUI">Github</a></button>
+               </div>
+               <small class="text-muted">2016</small>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="col-md-4">
+         <div class="card mb-4 shadow-sm">
+           <img class="bd-placeholder-img card-img-top" src="images/hash.jpg" width="80%" height="250" focusable="true">
+           <div class="card-body">
+             <p class="card-text">
+              <h5>A HASHING CODE - C++</h5>
+              A hash class to save passwords and username.
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+             </p>
+             <div class="d-flex justify-content-between align-items-center">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/users/dipak140/projects/2
+">Github</a></button>
+               </div>
+               <small class="text-muted">2020</small>
+             </div>
+           </div>
+         </div>
+       </div>
+</div>
+</div>
+</section>
+<section>
+
+</section>
+
+  </body>
+</html>
